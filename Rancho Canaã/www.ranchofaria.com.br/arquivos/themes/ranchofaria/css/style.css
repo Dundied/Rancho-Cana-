@@ -5,8 +5,6 @@
 	URL: http://themeforest.net/user/Lumberjacks/
 */
 
-
-
 /* TABLE OF CONTENTS
 
 	1. Import section
@@ -23,984 +21,987 @@
 
 */
 
-
-
 /* 1. IMPORT SECTION */
 
 /*	@import url("bootstrap.css");*/
-	@import url("http://fonts.googleapis.com/css?family=Lato:300,400,700,700italic&amp;subset=latin,latin-ext");
-	@import url("http://fonts.googleapis.com/css?family=Raleway:300,700&amp;subset=latin,latin-ext");
+@import url("http://fonts.googleapis.com/css?family=Lato:300,400,700,700italic&amp;subset=latin,latin-ext");
+@import url("http://fonts.googleapis.com/css?family=Raleway:300,700&amp;subset=latin,latin-ext");
 /*	@import url("font-awesome.min.css");*/
-
-
 
 /* 2. BASIC STYLES */
 
-	html, body {
-		height: 100%;
-	}
+html,
+body {
+    height: 100%;
+}
 
-	body {
-		font: 16px/1.5 Lato, "Century Gothic", "Trebuchet MS", Helvetica, sans-serif;
-		background-color: #fff;
-		color: #262626;
-		font-weight: 300;
-		-webkit-font-smoothing: antialiased;
-		text-rendering: optimizeLegibility;
-	}
+body {
+    font: 16px/1.5 Lato, "Century Gothic", "Trebuchet MS", Helvetica, sans-serif;
+    background-color: #fff;
+    color: #262626;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
 
-	a {
-		color: #5d9cec;
-		transition: all 0.125s ease-in-out 0s;
-		-moz-transition: all 0.125s ease-in-out 0s;
-		-webkit-transition: all 0.125s ease-in-out 0s;
-		-o-transition: all 0.125s ease-in-out 0s;
-		-ms-transition: all 0.125s ease-in-out 0s;
-	}
+a {
+    color: #5d9cec;
+    transition: all 0.125s ease-in-out 0s;
+    -moz-transition: all 0.125s ease-in-out 0s;
+    -webkit-transition: all 0.125s ease-in-out 0s;
+    -o-transition: all 0.125s ease-in-out 0s;
+    -ms-transition: all 0.125s ease-in-out 0s;
+}
 
-	a:hover {
-		color: #5d9cec;
-	}
+a:hover {
+    color: #5d9cec;
+}
 
-	a, a:hover, a:active, a:focus {
-		outline: 0;
-		border: 0;
-		text-decoration: none;
-	}
+a,
+a:hover,
+a:active,
+a:focus {
+    outline: 0;
+    border: 0;
+    text-decoration: none;
+}
 
-	.lj-float-left {
-		float: left;
-	}
+.lj-float-left {
+    float: left;
+}
 
-	.lj-float-right {
-		float: right;
-	}
+.lj-float-right {
+    float: right;
+}
 
-	.lj-block-center {
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-	}
+.lj-block-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-	.lj-show {
-		display: block !important;
-	}
+.lj-show {
+    display: block !important;
+}
 
-	.lj-hide {
-		display: none !important;
-		visibility: hidden !important;
-	}
+.lj-hide {
+    display: none !important;
+    visibility: hidden !important;
+}
 
-	.lj-preloader {
-		background: #fff url('https://www.ranchofaria.com.br/arquivos/themes/ranchofaria/img/preloader.gif') no-repeat center center;
-		bottom: 0;
-		height: 100%;
-		left: 0;
-		overflow: hidden;
-		position: fixed;
-		right: 0;
-		top: 0;
-		width: 100%;
-		z-index: 99999;
-	}
-
-
+.lj-preloader {
+    background: #fff
+        url("https://www.ranchofaria.com.br/arquivos/themes/ranchofaria/img/preloader.gif")
+        no-repeat center center;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 99999;
+}
 
 /* 3. TYPOGRAPHY */
 
-	p {
-		line-height: 1.5;
-	}
+p {
+    line-height: 1.5;
+}
 
-	.lj-text-uppercase {
-		text-transform: uppercase;
-	}
+.lj-text-uppercase {
+    text-transform: uppercase;
+}
 
-	.lj-text-center {
-		text-align: center;
-	}
+.lj-text-center {
+    text-align: center;
+}
 
-	.lj-text-left {
-		text-align: left;
-	}
+.lj-text-left {
+    text-align: left;
+}
 
-	.lj-text-right {
-		text-align: right;
-	}
+.lj-text-right {
+    text-align: right;
+}
 
-	.lj-text-justify {
-		text-align: justify;
-	}
+.lj-text-justify {
+    text-align: justify;
+}
 
-	.lj-text-underline {
-		text-decoration: underline;
-	}
-
-
+.lj-text-underline {
+    text-decoration: underline;
+}
 
 /* 4. BREAKPOINT FOR HIGH-RES DEVICES */
 
-	@media
-	  only screen and (-webkit-min-device-pixel-ratio: 2),
-	  only screen and (   min--moz-device-pixel-ratio: 2),
-	  only screen and (     -o-min-device-pixel-ratio: 2/1),
-	  only screen and (        min-device-pixel-ratio: 2),
-	  only screen and (                min-resolution: 192dpi),
-	  only screen and (                min-resolution: 2dppx) {
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min--moz-device-pixel-ratio: 2),
+    only screen and (-o-min-device-pixel-ratio: 2/1),
+    only screen and (min-device-pixel-ratio: 2),
+    only screen and (min-resolution: 192dpi),
+    only screen and (min-resolution: 2dppx) {
+    .lj-logo-1x {
+        display: none !important;
+    }
 
-	  	.lj-logo-1x {
-			display: none !important;
-		}
-
-		.lj-logo-2x {
-			display: block !important;
-		}
-
-	}
-
-
+    .lj-logo-2x {
+        display: block !important;
+    }
+}
 
 /* 5. HEADER */
 
-	header {
-		width: 100%;
-		height: 100%;
-		overflow: hidden;
-		position: relative;
-/*		background-color: #000 !important;*/
-	}
+header {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    /*		background-color: #000 !important;*/
+}
 
-	header > .container {
-		height: 100%;
-		position: relative;
-	}
+header > .container {
+    height: 100%;
+    position: relative;
+}
 
-	/*.wrapper {
+/*.wrapper {
 		width: 100%;
 		height: auto;
 		position: relative;
 		top: 50%;
 	}*/
-	
-	.wrapper {
+
+.wrapper {
     width: 100%;
     height: auto;
     position: relative;
     top: 50%;
     margin-top: -165px;
-	}
-	
-    .wrapper-interna {
-		width: 100%;
-		height: auto;
-		position: relative;
-		top: 10%;
-	}
+}
 
-	.lj-overlay {
-		width: 100%;
-		height: 100%;
-		position: absolute;
-		top: 0;
-		left: 0;
-	}
+.wrapper-interna {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 10%;
+}
 
-	.lj-background-repeat {
-	    background-repeat: repeat;
-	}
+.lj-overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 
-	.lj-background-no-repeat {
-		background-repeat: no-repeat;
-	}
+.lj-background-repeat {
+    background-repeat: repeat;
+}
 
-	.lj-overlay-none {
-		display: none;
-		visibility: hidden;
-	}
+.lj-background-no-repeat {
+    background-repeat: no-repeat;
+}
 
-	.lj-overlay-image {
-		background-image: url('https://www.ranchofaria.com.br/arquivos/themes/ranchofaria/img/lines-horizontal.png');
-		background-repeat: repeat;
-	}
+.lj-overlay-none {
+    display: none;
+    visibility: hidden;
+}
 
-	.lj-overlay-color {
-	    background-color: rgba(0,0,0,0.5);
-	}
+.lj-overlay-image {
+    background-image: url("https://media-cdn.epicgames.com/1f33019aa589493d85d8144d04ec73c7/1f33019aa589493d85d8144d04ec73c7-00001-thumb.png?h=270&quality=medium&resize=1&w=480");
+    background-repeat: repeat;
+}
 
-	.lj-overlay-gradient {
-		background: -moz-linear-gradient(215deg,  rgba(0,204,255,0.8) 0%, rgba(196,255,0,0.8) 100%); /* FF3.6+ */
-		background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgba(0,204,255,0.8)), color-stop(100%,rgba(196,255,0,0.8))); /* Chrome,Safari4+ */
-		background: -webkit-linear-gradient(215deg,  rgba(0,204,255,0.8) 0%,rgba(196,255,0,0.8) 100%); /* Chrome10+,Safari5.1+ */
-		background: -o-linear-gradient(215deg,  rgba(0,204,255,0.8) 0%,rgba(196,255,0,0.8) 100%); /* Opera 11.10+ */
-		background: -ms-linear-gradient(215deg,  rgba(0,204,255,0.8) 0%,rgba(196,255,0,0.8) 100%); /* IE10+ */
-		background: linear-gradient(215deg,  rgba(0,204,255,0.8) 0%,rgba(196,255,0,0.8) 100%); /* W3C */
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ccff', endColorstr='#c4ff00',GradientType=1 ) progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://www.ranchofaria.com.br/arquivos/themes/ranchofaria/img/1x1.png'); /* IE6-9 fallback on horizontal gradient */
-		pointer-events:none;
-	}
+.lj-overlay-color {
+    background-color: rgba(0, 0, 0, 0.5);
+}
 
-	header.yt-background {
-		background-image: url('https://www.ranchofaria.com.br/arquivos/themes/ranchofaria/img/video.jpg');
-		background-repeat: no-repeat;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-		background-attachment: fixed;
-	}
+.lj-overlay-gradient {
+    background: -moz-linear-gradient(
+        215deg,
+        rgba(0, 204, 255, 0.8) 0%,
+        rgba(196, 255, 0, 0.8) 100%
+    ); /* FF3.6+ */
+    background: -webkit-gradient(
+        linear,
+        left bottom,
+        right top,
+        color-stop(0%, rgba(0, 204, 255, 0.8)),
+        color-stop(100%, rgba(196, 255, 0, 0.8))
+    ); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(
+        215deg,
+        rgba(0, 204, 255, 0.8) 0%,
+        rgba(196, 255, 0, 0.8) 100%
+    ); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(
+        215deg,
+        rgba(0, 204, 255, 0.8) 0%,
+        rgba(196, 255, 0, 0.8) 100%
+    ); /* Opera 11.10+ */
+    background: -ms-linear-gradient(
+        215deg,
+        rgba(0, 204, 255, 0.8) 0%,
+        rgba(196, 255, 0, 0.8) 100%
+    ); /* IE10+ */
+    background: linear-gradient(
+        215deg,
+        rgba(0, 204, 255, 0.8) 0%,
+        rgba(196, 255, 0, 0.8) 100%
+    ); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ccff', endColorstr='#c4ff00',GradientType=1 ) progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://www.ranchofaria.com.br/arquivos/themes/ranchofaria/img/1x1.png'); /* IE6-9 fallback on horizontal gradient */
+    pointer-events: none;
+}
 
-	.mobile .mbYTP_wrapper,
-	.tablet .mbYTP_wrapper {
-		z-index: -1 !important;
-	}
+header.yt-background {
+    background-image: url("https://www.ranchofaria.com.br/arquivos/themes/ranchofaria/img/video.jpg");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
 
-	.mobile .yt-controls,
-	.tablet .yt-controls {
-		display: none;
-	}
+.mobile .mbYTP_wrapper,
+.tablet .mbYTP_wrapper {
+    z-index: -1 !important;
+}
 
-	.yt-controls {
-		margin-top: 50px;
-		text-align: right;
-	}
+.mobile .yt-controls,
+.tablet .yt-controls {
+    display: none;
+}
 
-	.yt-controls a {
-		display: inline-block;
-		color: #fff;
-		width: 20px;
-	}
+.yt-controls {
+    margin-top: 50px;
+    text-align: right;
+}
 
-	.yt-controls a:hover {
-		color: #5d9cec;
-	}
+.yt-controls a {
+    display: inline-block;
+    color: #fff;
+    width: 20px;
+}
 
-	.lj-logo a,
-	.lj-logo a, .lj-logo img {
-	width: 300px;
-	height: 300px;
-	}
+.yt-controls a:hover {
+    color: #5d9cec;
+}
 
-	.lj-logo a {
-		display: block;
-		margin: 0 auto;
-	}
+.lj-logo a,
+.lj-logo a,
+.lj-logo img {
+    width: 300px;
+    height: 300px;
+}
 
-	.lj-logo img {
-	    vertical-align: bottom;
-	}
+.lj-logo a {
+    display: block;
+    margin: 0 auto;
+}
 
-	.lj-logo-1x {
-		display: block;
-	}
+.lj-logo img {
+    vertical-align: bottom;
+}
 
-	.lj-logo-2x {
-		display: none;
-	}
+.lj-logo-1x {
+    display: block;
+}
 
-	.lj-title {
-        margin-top: 30px;
-    }
+.lj-logo-2x {
+    display: none;
+}
 
-    .lj-title h1 {
-    	font-family: 'Raleway';
-    	font-size: 3.5em;
-    	font-weight: 300;
-        color: #fff;
-        margin: 0;
-        word-wrap: break-word;
-    }
+.lj-title {
+    margin-top: 30px;
+}
 
-    .lj-title span {
-        color: #fff;
-        font-weight: 700;
-    }
+.lj-title h1 {
+    font-family: "Raleway";
+    font-size: 3.5em;
+    font-weight: 300;
+    color: #fff;
+    margin: 0;
+    word-wrap: break-word;
+}
 
-	.lj-line {
-		margin-top: 20px;
-	}
+.lj-title span {
+    color: #fff;
+    font-weight: 700;
+}
 
-    .lj-line > div {
-    	width: 200px;
-    	height: 1px;
-    	background-color: #fff;
-    	margin: 0 auto;
-    }
+.lj-line {
+    margin-top: 20px;
+}
 
-    .lj-title-paragraph {
-    	margin-top: 20px;
-    }
+.lj-line > div {
+    width: 200px;
+    height: 1px;
+    background-color: #fff;
+    margin: 0 auto;
+}
 
-    .lj-title-paragraph p {
-    	color: #fff;
-    	margin: 0;
-    }
+.lj-title-paragraph {
+    margin-top: 20px;
+}
 
-    .lj-countdown {
-    	color: #fff;
-    	margin-top: 40px;
-    	text-align: center;
-    }
+.lj-title-paragraph p {
+    color: #fff;
+    margin: 0;
+}
 
-    .lj-countdown > * {
-    	text-align: center;
-    }
+.lj-countdown {
+    color: #fff;
+    margin-top: 40px;
+    text-align: center;
+}
 
-    .lj-countdown div {
-    	display: inline-block;
-    }
+.lj-countdown > * {
+    text-align: center;
+}
 
-    .lj-countdown div span {
-    	width: 150px;
-    	display: block;
-    }
+.lj-countdown div {
+    display: inline-block;
+}
 
-    .lj-countdown div span:first-child {
-    	height: 64px;
-    	font-family: Lato, "Century Gothic", "Trebuchet MS", Helvetica, sans-serif;
-    	font-weight: 300;
-    	font-size: 4em;
-    	line-height: 64px;
-    }
+.lj-countdown div span {
+    width: 150px;
+    display: block;
+}
 
-    .lj-countdown div span:last-child {
-    	height: 20px;
-    	font-family: Lato, "Century Gothic", "Trebuchet MS", Helvetica, sans-serif;
-    	font-weight: 300;
-    	font-size: 1em;
-    	line-height: 20px;
-    }
+.lj-countdown div span:first-child {
+    height: 64px;
+    font-family: Lato, "Century Gothic", "Trebuchet MS", Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 4em;
+    line-height: 64px;
+}
 
-	.lj-scroll-down {
-		width: 40px;
-		height: 40px;
-		margin-left: -20px;
-		position: absolute;
-		bottom: 70px;
-		left: 50%;
-	}
+.lj-countdown div span:last-child {
+    height: 20px;
+    font-family: Lato, "Century Gothic", "Trebuchet MS", Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 20px;
+}
 
-	.lj-scroll-down a,
-	.lj-scroll-down a:focus {
-		width: 40px;
-		height: 40px;
-		display: block;
-    	-webkit-border-radius: 2px;
-		-moz-border-radius: 2px;
-		border-radius: 2px;
-		text-align: center;
-		line-height: 36px;
-		color: #fff;
-		background-color: transparent;
-    	border: 1px solid #fff;
-	}
+.lj-scroll-down {
+    width: 40px;
+    height: 40px;
+    margin-left: -20px;
+    position: absolute;
+    bottom: 70px;
+    left: 50%;
+}
 
-	.lj-scroll-down a:hover {
-		color: #fff;
-		background-color: #947878;
-		border: 1px solid #947878;
-	}
+.lj-scroll-down a,
+.lj-scroll-down a:focus {
+    width: 40px;
+    height: 40px;
+    display: block;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    text-align: center;
+    line-height: 36px;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+}
 
-
+.lj-scroll-down a:hover {
+    color: #fff;
+    background-color: #947878;
+    border: 1px solid #947878;
+}
 
 /* 6. ICONS */
 
-	.icons {
-		background-color: #fff;
-		overflow: hidden;
-	}
+.icons {
+    background-color: #fff;
+    overflow: hidden;
+}
 
-	.icons > .container {
-		padding-top: 150px;
-		padding-bottom: 150px;
-	}
+.icons > .container {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
 
-	.lj-icon-box {
-		padding: 0 20px;
-        margin-bottom: 20px;
-	}
+.lj-icon-box {
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
 
-	.lj-icon-box span {
-		display: inline-block;
-		font-size: 2em;
-		border-radius: 50%;
-		text-align: center;
-		color: #5d9cec;
-		background-color: #fff;
-	}
+.lj-icon-box span {
+    display: inline-block;
+    font-size: 2em;
+    border-radius: 50%;
+    text-align: center;
+    color: #5d9cec;
+    background-color: #fff;
+}
 
-	.lj-icon-box h3 {
-		font-family: 'Raleway';
-		font-weight: 700;
-		font-size: 1em;
-		word-wrap: break-word;
-		color: #32110C;
-	}
+.lj-icon-box h3 {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 1em;
+    word-wrap: break-word;
+    color: #32110c;
+}
 
-	.lj-icon-box p {
-		font-size: 0.9em;
-		color: #262626;
-	}
+.lj-icon-box p {
+    font-size: 0.9em;
+    color: #262626;
+}
 
-	.lj-icon-box > a {
-		font-family: 'Raleway';
-		font-weight: 700;
-		font-size: 0.85em;
-		color: #947878;
-		display: inline-block;
-	}
+.lj-icon-box > a {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 0.85em;
+    color: #947878;
+    display: inline-block;
+}
 
-	.lj-icon-box > a:hover {
-		color: #32110C;
-	}
+.lj-icon-box > a:hover {
+    color: #32110c;
+}
 
-	.lj-icon-box h3,
-	.lj-icon-box p,
-	.lj-icon-box > a {
-		margin: 20px 0 0;
-	}
+.lj-icon-box h3,
+.lj-icon-box p,
+.lj-icon-box > a {
+    margin: 20px 0 0;
+}
 
-	.lj-icon-box p a {
-		font-weight: 700;
-	}
-
-
+.lj-icon-box p a {
+    font-weight: 700;
+}
 
 /* 7. SUBSCRIBE */
 
-	.subscribe {
-		width: 100%;
-		background-color: #eee;
-		background-image: url('https://www.ranchofaria.com.br/arquivos/themes/ranchofaria/img/bg-2.jpg');
-		background-attachment: fixed;
-		background-repeat: no-repeat;
-		background-position: 50% 0;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-		position: relative;
-		overflow: hidden;
-	}
+.subscribe {
+    width: 100%;
+    background-color: #eee;
+    background-image: url("https://www.ranchofaria.com.br/arquivos/themes/ranchofaria/img/bg-2.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
 
-	.subscribe > .container {
-		padding-top: 150px;
-		padding-bottom: 116px;
-	}
+.subscribe > .container {
+    padding-top: 150px;
+    padding-bottom: 116px;
+}
 
-	.lj-subscribe-title h2 {
-		font-family: 'Raleway';
-		font-weight: 300;
-		font-size: 3em;
-		color: #262626;
-		margin: 0;
-	}
+.lj-subscribe-title h2 {
+    font-family: "Raleway";
+    font-weight: 300;
+    font-size: 3em;
+    color: #262626;
+    margin: 0;
+}
 
-	.lj-subscribe-title h2 span {
-		font-weight: 700;
-	}
+.lj-subscribe-title h2 span {
+    font-weight: 700;
+}
 
-    .lj-subscribe-form {
-    	margin-top: 6px;
-    }
+.lj-subscribe-form {
+    margin-top: 6px;
+}
 
-    .lj-subscribe-form input[type=text],
-    .lj-subscribe-form input[type=email] {
-    	width: 65%;
-    	height: 60px;
-    	display: block;
-    	padding: 0 20px;
-    	background-color: #fff;
-        border: 1px solid #fff;
-		-webkit-border-top-left-radius: 2px;
-		-webkit-border-bottom-left-radius: 2px;
-		-moz-border-radius-topleft: 2px;
-		-moz-border-radius-bottomleft: 2px;
-		border-top-left-radius: 2px;
-		border-bottom-left-radius: 2px;
-		line-height: 60px;
-		color: #262626;
-		float: left;
-    }
+.lj-subscribe-form input[type="text"],
+.lj-subscribe-form input[type="email"] {
+    width: 65%;
+    height: 60px;
+    display: block;
+    padding: 0 20px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    -webkit-border-top-left-radius: 2px;
+    -webkit-border-bottom-left-radius: 2px;
+    -moz-border-radius-topleft: 2px;
+    -moz-border-radius-bottomleft: 2px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    line-height: 60px;
+    color: #262626;
+    float: left;
+}
 
-    .lj-subscribe-form input:focus {
-    	outline: 0;
-    }
+.lj-subscribe-form input:focus {
+    outline: 0;
+}
 
-    .lj-subscribe-form input[type=submit] {
-    	width: 35%;
-    	height: 60px;
-    	display: block;
-    	padding: 0 10px;
-    	background-color: #5d9cec;
-        border: 1px solid #5d9cec;
-        color: #fff;
-		-webkit-border-top-right-radius: 2px;
-		-webkit-border-bottom-right-radius: 2px;
-		-moz-border-radius-topright: 2px;
-		-moz-border-radius-bottomright: 2px;
-		border-top-right-radius: 2px;
-		border-bottom-right-radius: 2px;
-		font-family: 'Raleway';
-		font-weight: 700;
-		transition: all 0.125s ease-in-out 0s;
-		-moz-transition: all 0.125s ease-in-out 0s;
-		-webkit-transition: all 0.125s ease-in-out 0s;
-		-o-transition: all 0.125s ease-in-out 0s;
-		-ms-transition: all 0.125s ease-in-out 0s;
-		float: right;
-    }
+.lj-subscribe-form input[type="submit"] {
+    width: 35%;
+    height: 60px;
+    display: block;
+    padding: 0 10px;
+    background-color: #5d9cec;
+    border: 1px solid #5d9cec;
+    color: #fff;
+    -webkit-border-top-right-radius: 2px;
+    -webkit-border-bottom-right-radius: 2px;
+    -moz-border-radius-topright: 2px;
+    -moz-border-radius-bottomright: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    font-family: "Raleway";
+    font-weight: 700;
+    transition: all 0.125s ease-in-out 0s;
+    -moz-transition: all 0.125s ease-in-out 0s;
+    -webkit-transition: all 0.125s ease-in-out 0s;
+    -o-transition: all 0.125s ease-in-out 0s;
+    -ms-transition: all 0.125s ease-in-out 0s;
+    float: right;
+}
 
-    .lj-subscribe-form input[type=submit]:hover {
-    	background-color: transparent;
-    	border: 1px solid #262626;
-    	color: #262626;
-    }
+.lj-subscribe-form input[type="submit"]:hover {
+    background-color: transparent;
+    border: 1px solid #262626;
+    color: #262626;
+}
 
-    .lj-subscribe-message {
-    	display: block;
-    	height: 2.5em;
-    	padding: 10px 20px;
-    	color: #262626;
-    	font-size: 0.9em;
-    }
+.lj-subscribe-message {
+    display: block;
+    height: 2.5em;
+    padding: 10px 20px;
+    color: #262626;
+    font-size: 0.9em;
+}
 
-    .lj-subscribe-message i {
-    	margin-right: 5px;
-    }
+.lj-subscribe-message i {
+    margin-right: 5px;
+}
 
-	.lj-subscribe-message .fa-warning {
-    	color: #ff5c5c;
-    }
+.lj-subscribe-message .fa-warning {
+    color: #ff5c5c;
+}
 
-    .lj-subscribe-message .fa-check {
-    	color: #5d9cec;
-    }
-
-
+.lj-subscribe-message .fa-check {
+    color: #5d9cec;
+}
 
 /* 8. WHO WE ARE */
 
-	.who-we-are {
-		width: 100%;
-		background-color: #fff;
-		overflow: hidden;
-	}
+.who-we-are {
+    width: 100%;
+    background-color: #fff;
+    overflow: hidden;
+}
 
-	.who-we-are > .container {
-		padding-top: 150px;
-		padding-bottom: 150px;
-	}
+.who-we-are > .container {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
 
-	.lj-quote {
-		margin-top: 5.75em;
-	}
+.lj-quote {
+    margin-top: 5.75em;
+}
 
-	.lj-quote span {
-		color: #5d9cec;
-		font-size: 2em;
-	}
+.lj-quote span {
+    color: #5d9cec;
+    font-size: 2em;
+}
 
-	.lj-quote blockquote {
-		width: 80%;
-		margin: 10px 0 0;
-		font-weight: 700;
-		font-style: italic;
-		font-size: 1.25em;
-	}
+.lj-quote blockquote {
+    width: 80%;
+    margin: 10px 0 0;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 1.25em;
+}
 
-	.lj-quote blockquote cite {
-		font-size: 0.8em;
-		font-weight: 300;
-		font-style: normal;
-		margin-top: 10px;
-		display: block;
-	}
+.lj-quote blockquote cite {
+    font-size: 0.8em;
+    font-weight: 300;
+    font-style: normal;
+    margin-top: 10px;
+    display: block;
+}
 
-	.lj-about h2 {
-		font-family: 'Raleway';
-		font-weight: 300;
-		font-size: 3em;
-		color: #32110C;
-		margin: 0;
-	}
+.lj-about h2 {
+    font-family: "Raleway";
+    font-weight: 300;
+    font-size: 3em;
+    color: #32110c;
+    margin: 0;
+}
 
-	.lj-about h2 span {
-		font-weight: 700;
-	}
+.lj-about h2 span {
+    font-weight: 700;
+}
 
-	.lj-about p {
-		margin-top: 20px;
-		margin-bottom: 0;
-	}
+.lj-about p {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
 
-	.lj-about-leading {
-		font-weight: 700;
-		font-size: 1.1em;
-	}
-
-
+.lj-about-leading {
+    font-weight: 700;
+    font-size: 1.1em;
+}
 
 /* 10. FOOTER */
 
-	footer {
-		width: 100%;
-		background-color: #32110C;
-		overflow: hidden;
-	}
+footer {
+    width: 100%;
+    background-color: #32110c;
+    overflow: hidden;
+}
 
-	footer > .container {
-		padding-top: 100px;
-		padding-bottom: 100px;
-		color: #b2b2b2;
-	}
+footer > .container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: #b2b2b2;
+}
 
-	.lj-footer-left h2 {
-		font-family: 'Raleway';
-		font-weight: 300;
-		font-size: 3em;
-		margin: 0;
-		color: #fff;
-	}
+.lj-footer-left h2 {
+    font-family: "Raleway";
+    font-weight: 300;
+    font-size: 3em;
+    margin: 0;
+    color: #fff;
+}
 
-	.lj-footer-left h2 span {
-		font-weight: 700;
-	}
+.lj-footer-left h2 span {
+    font-weight: 700;
+}
 
-	.lj-footer-left p {
-		color: #b2b2b2;
-		margin-top: 20px;
-		margin-bottom: 0;
-		font-size: 0.9em;
-	}
+.lj-footer-left p {
+    color: #b2b2b2;
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 0.9em;
+}
 
-	.lj-footer-left p.lj-footer-leading {
-		font-weight: 700;
-		font-size: 1em;
-	}
+.lj-footer-left p.lj-footer-leading {
+    font-weight: 700;
+    font-size: 1em;
+}
 
-	address {
-		margin-top: 7px;
-		font-weight: 300;
-		font-style: normal;
-	}
+address {
+    margin-top: 7px;
+    font-weight: 300;
+    font-style: normal;
+}
 
-	address ul {
-		padding-left: 0;
-		margin-left: 25px;
-		margin-top: 0;
-		margin-bottom: 0;
-		list-style-type: none;
-		display: inline-block;
-	}
+address ul {
+    padding-left: 0;
+    margin-left: 25px;
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+    display: inline-block;
+}
 
-	/*address ul:last-child {
+/*address ul:last-child {
 		margin-left: 70px;
 	}*/
 
-	address ul:last-child {
-		margin-left: 23px;
-	}
+address ul:last-child {
+    margin-left: 23px;
+}
 
-	address ul:first-child {
-		margin-right: 70px;
-	}
+address ul:first-child {
+    margin-right: 70px;
+}
 
-	address ul > li {
-		position: relative;
-		text-align: left;
-		color: #b2b2b2;
-		font-size: 0.9em;
-	}
+address ul > li {
+    position: relative;
+    text-align: left;
+    color: #b2b2b2;
+    font-size: 0.9em;
+}
 
-	address i {
-		color: #fff;
-		line-height: 1.5em !important;
-	}
+address i {
+    color: #fff;
+    line-height: 1.5em !important;
+}
 
-	.lj-footer-socials {
-		margin-top: 26px;
-		margin-bottom: 0;
-		padding-left: 0;
-		list-style-type: none;
-	}
+.lj-footer-socials {
+    margin-top: 26px;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
 
-	.lj-footer-socials li {
-		display: inline-block;
-		margin-right: 5px;
-	}
+.lj-footer-socials li {
+    display: inline-block;
+    margin-right: 5px;
+}
 
-	.lj-footer-socials li:last-child {
-		margin-right: 0;
-	}
+.lj-footer-socials li:last-child {
+    margin-right: 0;
+}
 
-	.lj-footer-socials li a {
-	width: 40px;
-	height: 40px;
-	display: inline-block;
-	line-height: 40px;
-	text-align: center;
-	-webkit-border-radius: 2px;
-	-moz-border-radius: 2px;
-	border-radius: 2px;
-	background-color: #450E0E;
-	color: #fff;
-	font-size: 1.25em;
-	}
+.lj-footer-socials li a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    background-color: #450e0e;
+    color: #fff;
+    font-size: 1.25em;
+}
 
-	.lj-footer-socials li a:hover {
-	background-color: #947878;
-	color: #fff;
-	}
+.lj-footer-socials li a:hover {
+    background-color: #947878;
+    color: #fff;
+}
 
-	.lj-contact-message {
-		height: 4.5em;
-		line-height: 4.5em;
-		padding: 0 20px;
-		color: #fff;
-		font-size: 0.9em;
-	}
+.lj-contact-message {
+    height: 4.5em;
+    line-height: 4.5em;
+    padding: 0 20px;
+    color: #fff;
+    font-size: 0.9em;
+}
 
-	.lj-contact-message i {
-		margin-right: 5px;
-	}
+.lj-contact-message i {
+    margin-right: 5px;
+}
 
-	.lj-contact-message .fa-warning {
-    	color: #ff5c5c;
-    }
+.lj-contact-message .fa-warning {
+    color: #ff5c5c;
+}
 
-    .lj-contact-message .fa-check {
-    	color: #5d9cec;
-    }
+.lj-contact-message .fa-check {
+    color: #5d9cec;
+}
 
-    .lj-footer-right form input:focus,
-    .lj-footer-right textarea:focus {
-    	outline: 0;
-    }
+.lj-footer-right form input:focus,
+.lj-footer-right textarea:focus {
+    outline: 0;
+}
 
-	.lj-footer-right input[type=text],
-	.lj-footer-right input[type=email] {
-    	width: 100%;
-    	height: 60px;
-    	display: inline-block;
-    	padding: 0 20px;
-    	background-color: #fff;
-    	border: 0;
-		-webkit-border-radius: 2px;
-		-moz-border-radius: 2px;
-		border-radius: 2px;
-		line-height: 44px;
-		color: #262626;
-		margin-top: 20px;
-	}
+.lj-footer-right input[type="text"],
+.lj-footer-right input[type="email"] {
+    width: 100%;
+    height: 60px;
+    display: inline-block;
+    padding: 0 20px;
+    background-color: #fff;
+    border: 0;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    line-height: 44px;
+    color: #262626;
+    margin-top: 20px;
+}
 
-	.lj-footer-right textarea {
-		width: 100%;
-    	height: 180px;
-    	display: inline-block;
-    	padding: 20px;
-    	background-color: #fff;
-    	border: 0;
-		-webkit-border-radius: 2px;
-		-moz-border-radius: 2px;
-		border-radius: 2px;
-		color: #262626;
-		margin-top: 20px;
-		resize: vertical;
-	}
+.lj-footer-right textarea {
+    width: 100%;
+    height: 180px;
+    display: inline-block;
+    padding: 20px;
+    background-color: #fff;
+    border: 0;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    color: #262626;
+    margin-top: 20px;
+    resize: vertical;
+}
 
-	.lj-footer-right input[type=submit] {
-		width: auto;
-		height: 60px;
-		display: inline-block;
-		padding: 0 20px;
-		background-color: #450E0E;
-		color: #fff;
-		border: none;
-		-webkit-border-radius: 2px;
-		-moz-border-radius: 2px;
-		border-radius: 2px;
-		font-family: 'Raleway';
-		transition: all 0.125s ease-in-out 0s;
-		-moz-transition: all 0.125s ease-in-out 0s;
-		-webkit-transition: all 0.125s ease-in-out 0s;
-		-o-transition: all 0.125s ease-in-out 0s;
-		-ms-transition: all 0.125s ease-in-out 0s;
-		margin-top: 20px;
-	}
+.lj-footer-right input[type="submit"] {
+    width: auto;
+    height: 60px;
+    display: inline-block;
+    padding: 0 20px;
+    background-color: #450e0e;
+    color: #fff;
+    border: none;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    font-family: "Raleway";
+    transition: all 0.125s ease-in-out 0s;
+    -moz-transition: all 0.125s ease-in-out 0s;
+    -webkit-transition: all 0.125s ease-in-out 0s;
+    -o-transition: all 0.125s ease-in-out 0s;
+    -ms-transition: all 0.125s ease-in-out 0s;
+    margin-top: 20px;
+}
 
-    .lj-footer-right input[type=submit]:hover {
-		background: #947878;
-	}
-
-
+.lj-footer-right input[type="submit"]:hover {
+    background: #947878;
+}
 
 /* 11. BREAKPOINTS */
 
-	@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* 9. TWITTER */
 
-		/* 9. TWITTER */
+    .lj-twitter-feed {
+        margin-top: 15px;
+    }
+}
 
-		.lj-twitter-feed {
-			margin-top: 15px;
-		}
+@media (min-width: 768px) and (max-width: 991px) {
+    /* 7. SUBSCRIBE */
 
-	}
+    .lj-subscribe-form {
+        margin-top: 20px;
+    }
 
-	@media (min-width: 768px) and (max-width: 991px) {
+    /* 9. TWITTER */
 
-		/* 7. SUBSCRIBE */
+    .lj-twitter-feed {
+        margin-top: 10px;
+    }
+}
 
-	    .lj-subscribe-form {
-	    	margin-top: 20px;
-	    }
+@media (max-width: 767px) {
+    /* 5. HEADER */
 
-		/* 9. TWITTER */
+    header header .container {
+        height: auto;
+    }
 
-		.lj-twitter-feed {
-			margin-top: 10px;
-		}
-
-	}
-
-	@media (max-width: 767px) {
-
-		/* 5. HEADER */
-
-		header,
-		header > .container {
-			/*height: auto;*/
-		}
-
-		/*.wrapper {
+    /*.wrapper {
 			width: 100%;
 			position: static;
 			top: 0;
 			margin-top: 50px !important;
 			margin-bottom: 50px;
 		}*/
-		.wrapper {
-			width: 100%;
-			position: static;
-			top: 0;
-			margin-top: 60px !important;
-			margin-bottom: 50px;
-		}
+    .wrapper {
+        width: 100%;
+        position: static;
+        top: 0;
+        margin-top: 60px !important;
+        margin-bottom: 50px;
+    }
 
-		/* 6. ICONS */
+    /* 6. ICONS */
 
-		.lj-icon-box {
-			text-align: center;
-			margin-bottom: 50px;
-		}
+    .lj-icon-box {
+        text-align: center;
+        margin-bottom: 50px;
+    }
 
-		.lj-icon-box:last-child {
-			margin-bottom: 0;
-		}
+    .lj-icon-box:last-child {
+        margin-bottom: 0;
+    }
 
-		.lj-icon-box span {
-			font-size: 3em;
-		}
+    .lj-icon-box span {
+        font-size: 3em;
+    }
 
-		.lj-icon-box h3 {
-			font-size: 1.3em;
-		}
+    .lj-icon-box h3 {
+        font-size: 1.3em;
+    }
 
-		.lj-icon-box p {
-			font-size: 1em;
-			padding: 0 20%;
-		}
+    .lj-icon-box p {
+        font-size: 1em;
+        padding: 0 20%;
+    }
 
-		.lj-icon-box > a {
-			font-size: 1em;
-		}
+    .lj-icon-box > a {
+        font-size: 1em;
+    }
 
-		/* 7. SUBSCRIBE */
+    /* 7. SUBSCRIBE */
 
-		.lj-subscribe-title {
-			text-align: center;
-		}
+    .lj-subscribe-title {
+        text-align: center;
+    }
 
-	    .lj-subscribe-form {
-	    	margin-top: 20px;
-	    }
+    .lj-subscribe-form {
+        margin-top: 20px;
+    }
 
-		/* 8. WHO WE ARE */
+    /* 8. WHO WE ARE */
 
-		.lj-quote {
-			margin-top: 0;
-			text-align: center;
-		}
+    .lj-quote {
+        margin-top: 0;
+        text-align: center;
+    }
 
-		.lj-quote blockquote {
-			width: 100%;
-			font-size: 1.5em;
-			padding: 0 10%;
-		}
+    .lj-quote blockquote {
+        width: 100%;
+        font-size: 1.5em;
+        padding: 0 10%;
+    }
 
-		.lj-about {
-			text-align: center;
-		}
+    .lj-about {
+        text-align: center;
+    }
 
-		.lj-about h2 {
-			margin-top: 40px;
-		}
+    .lj-about h2 {
+        margin-top: 40px;
+    }
 
-		.lj-about p {
-			padding: 0 10%;
-		}
+    .lj-about p {
+        padding: 0 10%;
+    }
 
-		/* 9. TWITTER */
+    /* 9. TWITTER */
 
-		.lj-twitter-title h2 {
-			text-align: center;
-		}
+    .lj-twitter-title h2 {
+        text-align: center;
+    }
 
-		.lj-twitter-feed {
-			margin-top: 20px;
-		}
+    .lj-twitter-feed {
+        margin-top: 20px;
+    }
 
-		/* 10. FOOTER */
+    /* 10. FOOTER */
 
-		.lj-footer-left,
-		.lj-footer-right {
-			text-align: center;
-		}
+    .lj-footer-left,
+    .lj-footer-right {
+        text-align: center;
+    }
 
-		.lj-footer-left p {
-			padding: 0 10%;
-		}
+    .lj-footer-left p {
+        padding: 0 10%;
+    }
 
-		.lj-footer-left p,
-		address ul > li {
-			font-size: 1em;
-		}
+    .lj-footer-left p,
+    address ul > li {
+        font-size: 1em;
+    }
 
-		address ul {
-			margin-top: 25px;
-			margin-left: 50px;
-			margin-right: 50px;
-		}
+    address ul {
+        margin-top: 25px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
 
-		address ul:last-child {
-			margin-left: 50px;
-		}
+    address ul:last-child {
+        margin-left: 50px;
+    }
 
-		.lj-footer-socials li a {
-			width: 60px;
-			height: 60px;
-			line-height: 60px;
-			font-size: 1.5em;
-		}
+    .lj-footer-socials li a {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        font-size: 1.5em;
+    }
 
-		.lj-contact-message {
-			margin-top: 40px;
-			height: 1.5em;
-			line-height: 1.5em;
-			padding: 0;
-			text-align: center;
-			font-size: 1em;
-		}
-
-	}
+    .lj-contact-message {
+        margin-top: 40px;
+        height: 1.5em;
+        line-height: 1.5em;
+        padding: 0;
+        text-align: center;
+        font-size: 1em;
+    }
+}
 
 /*----------------------------
 			neotot
@@ -1008,243 +1009,238 @@
 /*---header----*/
 
 .lj-logo img {
-  width: 280px;
-  height: 280px;
+    width: 280px;
+    height: 280px;
 }
 
 img.logoHome {
-  width: 300px!important;
-  height: 300px!important;
+    width: 300x !important;
+    height: 300px !important;
 }
 
 /*---nav----*/
 
 .menu {
-width: 100%;
-height: 50px;
-z-index: 101;
-background: #32110C;
+    width: 100%;
+    height: 50px;
+    z-index: 101;
+    background: #32110c;
 }
 
 .navPos1 {
-position: absolute;
-bottom: 0;
-left: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 .navPos2 {
-position: fixed;
-top: 0;
-left: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
-
 .menu ul {
-  width: 100%;
-	text-align: center;
-  margin: 12px auto;
+    width: 100%;
+    text-align: center;
+    margin: 12px auto;
 }
 
 .menu ul li {
-list-style: none;
-display: inline;
-margin: 0px 10px;
+    list-style: none;
+    display: inline;
+    margin: 0px 10px;
 }
 
-
-.menu ul li: last-child {
-	margin-right: none !important;
-	margin-left: none !important;
+.menuulli last-child {
+    margin-right: none !important;
+    margin-left: none !important;
 }
 
 .menu ul li a {
-color: #fff;
-font-weight: 400;
-font-size: 17px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 17px;
 }
 
 .menu ul li a:hover {
-color: #947878;
+    color: #947878;
 }
 
 /*---rodape---*/
 
 .rodape {
-width: 100%;
-height: 50px;
-background: #fff;
-border-top: 1px solid #32110C;
-overflow: hidden;
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    border-top: 1px solid #32110c;
+    overflow: hidden;
 }
 
-
 .rodape p {
-width: 100%;
-/*text-align: center;*/
-/*float: left;*/
-margin-top: 12px;
+    width: 100%;
+    /*text-align: center;*/
+    /*float: left;*/
+    margin-top: 12px;
 }
 
 /*---topo garanhao----*/
 
-header.topoInterna  {
-height: 380px;
-background-size: cover;
+header.topoInterna {
+    height: 380px;
+    background-size: cover;
 }
 
 .interno.navPos1 {
-position: absolute;
-top: 330px;
-left: 0;
+    position: absolute;
+    top: 330px;
+    left: 0;
 }
 
 /*---menu flutuante---*/
 
 .navFloat {
-width: 120px;
-z-index: 100;
+    width: 120px;
+    z-index: 100;
 }
 
 .navFloat.floatPos1 {
-position: absolute;
-left: 0;
-top:70px;
+    position: absolute;
+    left: 0;
+    top: 70px;
 }
 
 .navFloat.floatPos2 {
-position: fixed;
-left: 0;
-top: 117px;
+    position: fixed;
+    left: 0;
+    top: 117px;
 }
 
 .navFloat ul {
-margin: 0;
-padding: 0 0 0 10px;
+    margin: 0;
+    padding: 0 0 0 10px;
 }
 
 .navFloat ul li {
-list-style: none;
+    list-style: none;
 }
 
 .navFloat a {
-background: #32110C;
-color: #fff;
-display: block;
-padding: 5px 5px 5px 10px;
-margin-bottom: 0px;
-font-weight: bold;
-border: 1px solid;
-font-size: 14px;
+    background: #32110c;
+    color: #fff;
+    display: block;
+    padding: 5px 5px 5px 10px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    border: 1px solid;
+    font-size: 14px;
 }
 
 .navFloat a:hover {
-background: #947878;
+    background: #947878;
 }
 
 .logoRancho a {
-background: none;
-padding: 0;
-margin-bottom: 0;
-border: none;
+    background: none;
+    padding: 0;
+    margin-bottom: 0;
+    border: none;
 }
 
 .logoRancho a:hover {
-background: #fff;
+    background: #fff;
 }
 
 /*---modulos---*/
 
 .modulos {
-padding: 70px 0 0;
+    padding: 70px 0 0;
 }
 
 .modulos.modBottom {
-	padding-bottom:70px;
+    padding-bottom: 70px;
 }
 
 h3.tit {
-text-align: center;
-font-size: 38px;
-color: #32110C;
+    text-align: center;
+    font-size: 38px;
+    color: #32110c;
 }
 
 h3.tit.titTop {
-margin-top: 0;
+    margin-top: 0;
 }
 
 h3.nameFilhos {
-font-size:12px;
+    font-size: 12px;
 }
 
-h2.tituloCav  {
-font-size: 30px;
+h2.tituloCav {
+    font-size: 30px;
 }
 
 img.fotoPrincipal {
-width: 100%;
-background: #ff0000;
+    width: 100%;
+    background: #ff0000;
 }
 
 img.fotoPrincipal.fotoHome {
-margin-top: 19px;
+    margin-top: 19px;
 }
 
-
 ul.infos {
-padding-left: 0px;
-list-style: none;
+    padding-left: 0px;
+    list-style: none;
 }
 
 ul.infos li {
-border-bottom: 1px solid silver;
-padding: 5px 0;
+    border-bottom: 1px solid silver;
+    padding: 5px 0;
 }
 
 /*---logoInterno Rancho---*/
 
 .logoTopoInterno img {
-  width: 265px;
-  height: auto;
+    width: 265px;
+    height: auto;
 }
 
-
 .logoRancho {
-width: 94px;
-z-index: 100;
-margin-left: 20px;
+    width: 94px;
+    z-index: 100;
+    margin-left: 20px;
 }
 
 .logoRancho img {
-width: 100%;
+    width: 100%;
 }
 
 /*---pedigree---*/
 
 #pedigree {
-border-collapse: collapse;
-width: 100%;
-border-top: 1px solid silver;
-font-weight: 500;
+    border-collapse: collapse;
+    width: 100%;
+    border-top: 1px solid silver;
+    font-weight: 500;
 }
 
 #pedigree td {
-vertical-align: middle!important;
-border-bottom: 1px solid silver;
-width: 34%;
-padding-top: 5px;
-padding-bottom: 5px;
+    vertical-align: middle !important;
+    border-bottom: 1px solid silver;
+    width: 34%;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 /*---fotos videos---*/
 
 .imgBox {
-width: 100%;
-max-height: 180px;
-overflow: hidden;
+    width: 100%;
+    max-height: 180px;
+    overflow: hidden;
 }
 
 .imgBox2 {
-max-height: 115px;
+    max-height: 115px;
 }
 
 .videoContainer {
@@ -1253,12 +1249,12 @@ max-height: 115px;
 }
 
 a.imglink {
-	width:100%;
+    width: 100%;
 }
 
 a.imglink img {
-width: 100%;
-background: #ff0000;
+    width: 100%;
+    background: #ff0000;
 }
 
 .foto {
@@ -1267,212 +1263,206 @@ background: #ff0000;
 /*-----listas------*/
 
 .listaBox {
-  text-align: center;
-  min-height: 350px;
+    text-align: center;
+    min-height: 350px;
 }
 
 .pedigreeLista {
-  margin: 0;
+    margin: 0;
 }
 
 .dataLista {
-  margin: 0;
+    margin: 0;
 }
 
 .listCol {
-  margin-bottom: 80px;
+    margin-bottom: 80px;
 }
 
 a.btListas {
-  background-color: #32110C;
-  width: 100%;
-  padding: 10px 0;
-  color: #fff;
+    background-color: #32110c;
+    width: 100%;
+    padding: 10px 0;
+    color: #fff;
 }
 
 /*-----competições------*/
 
 .imgBox2 {
-  width: 100%;
-  max-height: 300px;
-  overflow: hidden;
+    width: 100%;
+    max-height: 300px;
+    overflow: hidden;
 }
 
 a.btListas:hover {
-  background-color:#947878;
-  color:#fff;
+    background-color: #947878;
+    color: #fff;
 }
 
 h3.linkH3 a {
-  color: #32110C;
+    color: #32110c;
 }
 
 h3.linkH3 a:hover {
-  color: #947878;
+    color: #947878;
 }
 
 /*---breakpoints---*/
 
 @media (max-width: 992px) {
+    .modulos {
+        padding-top: 20px;
+    }
 
-.modulos {
-padding-top: 20px;
-}
+    .navFloat {
+        width: 99%;
+        z-index: 100;
+        margin-bottom: 30px;
+    }
 
-.navFloat {
-width: 99%;
-z-index: 100;
-margin-bottom: 30px;
-}
+    .navFloat.floatPos1,
+    .navFloat.floatPos2 {
+        position: relative;
+        left: 0;
+        top: 0;
+        margin-top: 13px;
+    }
 
-.navFloat.floatPos1, .navFloat.floatPos2 {
-position: relative;
-left: 0;
-top: 0;
-margin-top: 13px;
-}
+    .logoRancho {
+        margin: 0 auto 10px;
+        width: 120px;
+    }
 
-.logoRancho {
-margin: 0 auto 10px;
-width: 120px;
-}
+    .navFloat a {
+        text-align: center;
+        padding: 10px 0;
+    }
 
-.navFloat a {
-text-align: center;
-padding: 10px 0;
-}
+    .quebra992 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
 
-.quebra992 {
-width: 100%;
-text-align: center;
-margin-bottom: 15px;
-}
+    .menuLateral1 {
+        position: relative;
+        min-height: 1px;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100%;
+    }
 
-.menuLateral1 {
-position: relative;
-min-height: 1px;
-padding-left: 15px;
-padding-right: 15px;
-width: 100%;
-}
-
-.logoRancho img {
-margin-left: 9px;
-}
-
+    .logoRancho img {
+        margin-left: 9px;
+    }
 }
 
 @media (max-width: 767px) {
+    .navPos1 {
+        position: fixed;
+        top: 0;
+        bottom: none;
+        left: 0;
+    }
 
-.navPos1 {
-position: fixed;
-top:0;
-bottom: none;
-left: 0;
-}
+    .navPos2 {
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
 
-.navPos2 {
-position: fixed;
-top: 0;
-left: 0;
-}
+    .interno.navPos1 {
+        position: fixed;
+        top: 0;
+    }
 
-.interno.navPos1 {
-position: fixed;
-top: 0;
-}
+    .imgBox {
+        height: auto;
+        max-height: 1000px;
+    }
 
-.imgBox {
-height: auto;
-max-height: 1000px;
-}
+    .lj-icon-box {
+        border: 1px solid silver;
+        padding: 10px 10px;
+    }
 
-.lj-icon-box {
-border: 1px solid silver;
-padding: 10px 10px;
-}
+    .menu {
+        background: none;
+    }
 
-.menu {
-background: none;
-}
+    .menu ul {
+        padding: 43px 0 0;
+        width: 100%;
+    }
 
-.menu ul {
-padding: 43px 0 0;
-width: 100%;
-}
+    .menu ul li {
+        width: 100%;
+        background: #450e0e;
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 3px;
+        margin-left: 0;
+    }
 
-.menu ul li {
-width: 100%;
-background: #450E0E;
-text-align: center;
-font-size: 20px;
-margin-bottom: 3px;
-margin-left: 0;
-}
+    .menu ul li {
+        list-style: none;
+        display: initial;
+        float: left;
+    }
 
-.menu ul li {
-    list-style: none;
-	display:initial;
-    float: left;
-}
+    .menu ul li a {
+        width: 100%;
+        display: block;
+        padding: 10px 0;
+    }
 
-.menu ul li a {
-width: 100%;
-display: block;
-padding: 10px 0;
-}
+    .colapse {
+        width: 43px;
+        height: 43px;
+        position: absolute;
+        right: 0px;
+        top: -5px;
+        cursor: pointer;
+    }
 
-.colapse {
-width: 43px;
-height: 43px;
-position: absolute;
-right: 0px;
-top: -5px;
-cursor: pointer;
-}
+    .colapseClosed {
+        background-image: url("https://www.ranchofaria.com.br/arquivos/themes/ranchofaria/img/colapse.png");
+        background-position: center top;
+    }
 
-.colapseClosed {
-background-image:url('https://www.ranchofaria.com.br/arquivos/themes/ranchofaria/img/colapse.png');
-background-position: center top;
-}
+    .colapseOpen {
+        background-image: url("https://www.ranchofaria.com.br/arquivos/themes/ranchofaria/img/colapse.png");
+        background-position: center bottom;
+    }
 
-.colapseOpen {
-background-image:url('https://www.ranchofaria.com.br/arquivos/themes/ranchofaria/img/colapse.png');
-background-position: center bottom;
-}
+    .menuClosed {
+        height: 50px;
+        overflow: hidden;
+        -webkit-transition: all 0.3s ease-out;
+        -moz-transition: all 0.3s ease-out;
+        -o-transition: all 0.3s ease-out;
+        transition: all 0.3s ease-out;
+    }
 
-.menuClosed {
-height: 50px;
-overflow:hidden;
--webkit-transition: all .3s ease-out;
--moz-transition: all .3s ease-out;
--o-transition: all .3s ease-out;
-transition: all .3s ease-out;
-}
+    .menuOpen {
+        height: 532px;
+    }
 
-.menuOpen {
-    height: 532px;
-}
+    img.fotoPrincipal {
+        margin-top: 0px;
+    }
 
-img.fotoPrincipal {
-margin-top: 0px;
-}
+    .playerBox {
+        display: none;
+    }
 
-.playerBox {
-display: none;
-}
-
-header.yt-background {
-background-image: url('https://www.ranchofaria.com.br/arquivos/themes/ranchofaria/img/texturaNegra.jpg');
-}
-
-
+    header.yt-background {
+        background-image: url("https://www.ranchofaria.com.br/arquivos/themes/ranchofaria/img/texturaNegra.jpg");
+    }
 }
 
 @media (max-width: 473px) {
-
-address ul:first-child {
-margin-right: 36px;
-}
-
+    address ul:first-child {
+        margin-right: 36px;
+    }
 }
